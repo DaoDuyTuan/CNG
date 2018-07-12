@@ -1,0 +1,176 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - BSGridCollectionViewLayout (1.2.0)
+  - BSImagePicker (2.7.1):
+    - BSGridCollectionViewLayout (~> 1.2.0)
+    - UIImageViewModeScaleAspect (= 1.5)
+  - DatePickerDialog (2.0)
+  - DropDown (2.3.2)
+  - DynamicBlurView (2.0.2)
+  - FBSDKCoreKit (4.32.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.32.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.32.0):
+    - FBSDKCoreKit (~> 4.32.0)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Database (4.13.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.5)
+  - Firebase/Messaging (4.13.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.2.0)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.2.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.5)
+  - Floaty (4.0.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - ImageSlideshow (1.6.1):
+    - ImageSlideshow/Core (= 1.6.1)
+  - ImageSlideshow/Core (1.6.1)
+  - ImageSlideshow/SDWebImage (1.6.1):
+    - ImageSlideshow/Core
+    - SDWebImage (< 5.0, >= 3.7)
+  - KeychainAccess (3.1.1)
+  - leveldb-library (1.20)
+  - MBProgressHUD (1.1.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PopupDialog (0.7.1):
+    - DynamicBlurView (~> 2.0)
+  - Protobuf (3.5.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SKActivityIndicatorView (0.1.0)
+  - SnapKit (4.0.0)
+  - UIImageViewModeScaleAspect (1.5)
+  - YNSearch (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - BSImagePicker (~> 2.7)
+  - DatePickerDialog
+  - DropDown
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Floaty
+  - FMDB
+  - ImageSlideshow (~> 1.6)
+  - ImageSlideshow/SDWebImage
+  - KeychainAccess
+  - MBProgressHUD
+  - PopupDialog
+  - SDWebImage (~> 4.0)
+  - SKActivityIndicatorView (~> 0.1.0)
+  - SnapKit
+  - YNSearch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - DatePickerDialog
+    - DropDown
+    - DynamicBlurView
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - Floaty
+    - FMDB
+    - GoogleToolboxForMac
+    - ImageSlideshow
+    - KeychainAccess
+    - leveldb-library
+    - MBProgressHUD
+    - nanopb
+    - PopupDialog
+    - Protobuf
+    - SDWebImage
+    - SKActivityIndicatorView
+    - SnapKit
+    - UIImageViewModeScaleAspect
+    - YNSearch
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  BSGridCollectionViewLayout: 8f12c8e1e08c47057f5a39a6828f4395f043d78f
+  BSImagePicker: eb12948a6e71b9855c2c37723dfd989b9b4288bd
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FBSDKCoreKit: 55d7f2ac45d9c4b9b6119f4e43900fe84b9b7b1b
+  FBSDKLoginKit: 32ac05c2a59952c363c2e85aafa8f73ba93bcbad
+  FBSDKShareKit: 658780d0d108b8ad590a54afb5ac1427bdc8de28
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseMessaging: 75cdb862e86c30e0913a2ff307e48d49357c5b73
+  Floaty: 82854e1a5ef4fa208281ebd4da2f3d1e51ba67a6
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PopupDialog: 39598b7d41719f5c025b4b70e62728bae7734fef
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SKActivityIndicatorView: f46936f760d33eb8235333242269bf01cc9248ae
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  UIImageViewModeScaleAspect: 11a790a0b9d248a13dc63e3a78991f1463b6d84e
+  YNSearch: 3a6e0a69cfd34a7c5a7c77e0873f426de4437824
+
+PODFILE CHECKSUM: eb56e94a7fd1ee2f5e093dcb2cbe6bdfaa9543c6
+
+COCOAPODS: 1.5.2

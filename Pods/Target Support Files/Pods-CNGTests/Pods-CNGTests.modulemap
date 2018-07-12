@@ -1,0 +1,6 @@
+framework module Pods_CNGTests {
+  umbrella header "Pods-CNGTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
